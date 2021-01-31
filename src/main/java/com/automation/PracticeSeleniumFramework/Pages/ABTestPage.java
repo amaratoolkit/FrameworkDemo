@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ABTestPage {
 	WebDriver driver;
+	
 	public ABTestPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;

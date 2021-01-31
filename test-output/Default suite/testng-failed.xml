@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.PracticeSeleniumFramework.ABTest.VerifyABTest">
+      <class name="com.automation.PracticeSeleniumFramework.JavaPractice.JavaPractice">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="initilazePages"/>
-          <include name="killSession"/>
-          <include name="verifyABTestLIink"/>
-          <include name="launchApplication"/>
+          <include name="addition"/>
         </methods>
-      </class> <!-- com.automation.PracticeSeleniumFramework.ABTest.VerifyABTest -->
+      </class> <!-- com.automation.PracticeSeleniumFramework.JavaPractice.JavaPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
